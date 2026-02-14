@@ -1,0 +1,22 @@
+/* 1. 引入 Tailwind */
+@import "tailwindcss";
+
+/* 2. 定义我们的学术风格主题 */
+@theme {
+  /* 自定义颜色：大豆绿系列 */
+  --color-soy-50: #f4fbf5;
+  --color-soy-100: #eef8f0;
+  --color-soy-200: #dcfce7;
+  --color-soy-500: #22c55e;
+  --color-soy-700: #15803d;
+  --color-soy-900: #14532d;
+
+  /* 自定义字体 */
+  --font-serif: "Merriweather", "Georgia", serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+/* 3. 一些全局基础样式 */
+body {
+  background-color: var(--color-soy-50); /* 使用我们要的淡绿色背景 */
+}
